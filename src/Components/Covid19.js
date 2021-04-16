@@ -111,7 +111,11 @@ class Covid extends React.Component {
               </Card>
             </Col>
           </Row>
-          แหล่งที่มา : https://covid19.th-stat.com/
+          <div className="footer">
+          <a href="https://covid19.th-stat.com/">
+            แหล่งที่มา : https://covid19.th-stat.com/
+          </a>
+        </div>
         </div>
       </div>
     );
