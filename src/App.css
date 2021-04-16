@@ -1,23 +1,21 @@
 .header {
   position: absolute;
   left: 0;
-  width: 600px;
   top: 0;
-  height: 750px;
-  font-family: "Sriracha", cursive;
-  background-image: url(https://www.lubbockisd.org/cms/lib/TX01918059/Centricity/Domain/60/Covid%20Background%20-%20MMG.jpg);
-  color: rgb(68, 63, 63);
+  width: 800px;
+  height: 800px;
+  background-image: url(https://image.freepik.com/free-vector/medical-background-with-abstract-virus-cells-global-pandemic_1048-12124.jpg);
+  color:#000033;
   text-align: center;
   padding-top: 290px;
 }
 .right-content {
   position: absolute;
-  right: 0px;
-  width: 920px;
+  right: 15px;
   top: 0;
-  height: 750px;
-  font-family: "Sriracha", cursive;
-  background-image: url(https://www.lubbockisd.org/cms/lib/TX01918059/Centricity/Domain/60/Covid%20Background%20-%20MMG.jpg);
+  width: 920px;
+  height: 800px;
+  background-image: url(https://image.freepik.com/free-vector/medical-background-with-abstract-virus-cells-global-pandemic_1048-12124.jpg);
   text-align: center;
   padding-top: 200px;
 }
@@ -37,7 +35,7 @@
 }
 
 .text-white {
-  color: #fff;
+  color: #000033;
 }
 
 .col {
@@ -100,7 +98,7 @@ h1 {
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #000033;
 }
 
 .App-link {
@@ -116,41 +114,3 @@ h1 {
   }
 }
 
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */

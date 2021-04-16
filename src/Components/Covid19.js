@@ -10,21 +10,21 @@ class Covid extends React.Component {
 
     return (
       <div className="back">
-        <br />
-        <br />
+        <br/>
+        <br/>
         <div className="header">
           <CardTitle tag="h1">
-            สถานการณ์ผู้ติดเชื้อ Covid-19 ในประเทศไทย
+            สถานการณ์ของผู้ติดเชื้อ Covid-19 ในประเทศไทย ณ ปัจจุบัน
           </CardTitle>
-          <br />
-          <br />
-          <CardTitle tag="h5">ข้อมูล ณ วันที่ {data.UpdateDate}</CardTitle>
+          <br/>
+          <br/>
+          <CardTitle tag="h4">ข้อมูลของวันที่ {data.UpdateDate}</CardTitle>
         </div>
         <div className="right-content">
           <Row>
             <Col md={{ size: 8, offset: 2 }}>
               <Card body inverse color="Confirmed">
-                <CardTitle tag="h5">ติดเชื้อสะสม</CardTitle>
+                <CardTitle tag="h3">มีผู้ติดเชื้อสะสม</CardTitle>
                 <CardText>
                   <h1>
                     <NumberFormat
@@ -34,7 +34,7 @@ class Covid extends React.Component {
                     />
                   </h1>
                 </CardText>
-                <CardText tag="h5">
+                <CardText tag="h3">
                   [ +
                   <NumberFormat
                     value={data.NewConfirmed}
@@ -49,7 +49,7 @@ class Covid extends React.Component {
           <Row>
             <Col>
               <Card body inverse color="Recovered">
-                <CardTitle tag="h5">หายแล้ว</CardTitle>
+                <CardTitle tag="h3">ผู้ที่หายแล้ว</CardTitle>
                 <CardText tag="h1">
                   <NumberFormat
                     value={data.Recovered}
@@ -70,7 +70,7 @@ class Covid extends React.Component {
             </Col>
             <Col>
               <Card body inverse color="Hospitalized">
-                <CardTitle tag="h5">รักษาอยู่ใน รพ.</CardTitle>
+                <CardTitle tag="h3">ผู้ที่ยังรักษาอยู่ใน รพ.</CardTitle>
                 <CardText tag="h1">
                   <NumberFormat
                     value={data.Hospitalized}
@@ -91,7 +91,7 @@ class Covid extends React.Component {
             </Col>
             <Col>
               <Card body inverse color="Deaths">
-                <CardTitle tag="h5">เสียชีวิต</CardTitle>
+                <CardTitle tag="h3">ผู้เสียชีวิต</CardTitle>
                 <CardText tag="h1">
                   <NumberFormat
                     value={data.Deaths}
